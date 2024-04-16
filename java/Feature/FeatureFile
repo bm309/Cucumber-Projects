@@ -1,0 +1,20 @@
+Feature: 
+  MailLogin application Demo
+
+  Scenario: 
+    Login should be success
+
+    Given user navigate to the application
+    And user enter the UserName as bhavanirk92@gmail.com
+    And user enter the password as Jayanrhimohanraj
+    When user clicks on the login button
+    Then login should be success
+
+  #Scenario: 
+    #Login should be fail
+
+    #Given user navigate to the application
+    #And user enter the UserName as bhavanirk92@gmail.com
+    #And user enter the password as pass123
+    #When user clicks on the login button
+    #Then login should be fail
